@@ -7,6 +7,9 @@ requires-python = ">=3.12"
 dependencies = [
     "aiohttp>=3.12.15",
     "beautifulsoup4>=4.13.5",
+    "html-to-markdown>=1.13.0",
+    "pandoc>=2.4",
+    "tqdm>=4.67.1",
 ]
 
 [dependency-groups]
